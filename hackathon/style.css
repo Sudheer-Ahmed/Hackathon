@@ -249,4 +249,21 @@ footer .container {
   }
 }
 
+@media (max-width: 576px) {
+  .d-flex {
+    flex-direction: column; /* Stack the input and button vertically */
+    padding: 1rem; /* Adjust padding for smaller devices */
+  }
+
+  .form-control {
+    margin-bottom: 0.5rem; /* Add space between input and button */
+  }
+
+  .btn1.larger-button {
+    width: 100%; /* Make the button full-width */
+    font-size: 1rem; /* Adjust the font size */
+    padding: 0.5rem 0.75rem; /* Adjust padding for a smaller button */
+  }
+}
+
     
